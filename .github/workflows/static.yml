@@ -2,7 +2,7 @@ name: Deploy static content to Pages
 
 on:
   push:
-    branches: ["salespecks-website-project"]
+    branches: ["master", "salespecks-website-project"]
   workflow_dispatch:
 
 permissions:
